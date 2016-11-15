@@ -142,13 +142,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="BaseImage.h" />
+    <ClInclude Include="Image1.h" />
+    <ClInclude Include="Image2.h" />
+    <ClInclude Include="Image3.h" />
+    <ClInclude Include="Image4.h" />
+    <ClInclude Include="Image5.h" />
+    <ClInclude Include="Image6.h" />
+    <ClInclude Include="Image7.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BaseImage.cpp" />
+    <ClCompile Include="Image1.cpp" />
+    <ClCompile Include="Image2.cpp" />
+    <ClCompile Include="Image3.cpp" />
+    <ClCompile Include="Image4.cpp" />
+    <ClCompile Include="Image5.cpp" />
+    <ClCompile Include="Image6.cpp" />
+    <ClCompile Include="Image7.cpp" />
     <ClCompile Include="Obrazki w konsoli.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

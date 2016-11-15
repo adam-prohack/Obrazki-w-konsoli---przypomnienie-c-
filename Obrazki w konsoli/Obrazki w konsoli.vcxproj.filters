@@ -13,9 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <Filter Include="Images">
+      <UniqueIdentifier>{4e95f811-6e77-4150-9f0f-8d367c3e686d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\Headers">
+      <UniqueIdentifier>{e7f9bcf3-9301-4873-8a15-8242cf864ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images\Sources">
+      <UniqueIdentifier>{0e7ade34-c027-4d56-93c3-3541ce9462ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -24,6 +30,30 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Image1.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image2.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseImage.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image3.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image4.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image5.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image6.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Image7.h">
+      <Filter>Images\Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +61,30 @@
     </ClCompile>
     <ClCompile Include="Obrazki w konsoli.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseImage.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image1.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image2.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image3.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image4.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image5.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image6.cpp">
+      <Filter>Images\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image7.cpp">
+      <Filter>Images\Sources</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
