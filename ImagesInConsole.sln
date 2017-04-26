@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Obrazki w konsoli", "Obrazki w konsoli\Obrazki w konsoli.vcxproj", "{1F3F4F44-2BCA-4617-89F8-413AB0F8D987}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImagesInConsole", "ImagesInConsole\ImagesInConsole.vcxproj", "{1F3F4F44-2BCA-4617-89F8-413AB0F8D987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

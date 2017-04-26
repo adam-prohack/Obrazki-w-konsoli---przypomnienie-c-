@@ -22,7 +22,8 @@
     <ProjectGuid>{1F3F4F44-2BCA-4617-89F8-413AB0F8D987}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Obrazkiwkonsoli</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>ImagesInConsole</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -162,7 +163,7 @@
     <ClCompile Include="Image5.cpp" />
     <ClCompile Include="Image6.cpp" />
     <ClCompile Include="Image7.cpp" />
-    <ClCompile Include="Obrazki w konsoli.cpp" />
+    <ClCompile Include="ImagesInConsole.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
